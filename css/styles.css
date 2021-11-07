@@ -1,0 +1,40 @@
+#banner {
+  background-color: black;
+}
+
+#banner .row {
+  font-family: "Slimlines", sans-serif;
+  text-align: center;
+}
+
+#banner h1 {
+  color: #DCA424;
+  font-size: 6.5rem;
+  padding-top: 5%;
+  line-height: auto;
+}
+
+#banner h2 {
+  color: #DCA424;
+  font-size: 3rem;
+}
+
+#banner h6 {
+  color: #DCA424;
+}
+
+#banner .background {
+  padding: 2% 40% 2%;
+}
+
+#banner p {
+  color: white;
+  font-family: "Slimlines", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.white {
+  background-color: white;
+  border-radius: 5px;
+}
