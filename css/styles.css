@@ -41,7 +41,8 @@
 }
 
 #content {
-  margin-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 1%;
 }
 
 #content .head {
@@ -51,6 +52,7 @@
 }
 
 #content .info {
+  color: white;
   text-align: center;
 }
 
@@ -64,4 +66,15 @@
 
 #content .ingredients {
   margin-top: 10px;
+}
+
+#content .col-lg-4 {
+  border-style: solid;
+  background-color: black;
+}
+
+#about {
+  padding-top: 5%;
+  color: white;
+  background-color: #DCA424;
 }
