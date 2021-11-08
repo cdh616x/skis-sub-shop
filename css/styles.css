@@ -40,6 +40,10 @@
   border-radius: 5px;
 }
 
+#content {
+  margin-bottom: 5%;
+}
+
 #content .head {
   font-family: "Slimlines", sans-serif;
   margin-top: 10px;
@@ -48,4 +52,16 @@
 
 #content .info {
   text-align: center;
+}
+
+#content ul {
+  list-style-type: none;
+}
+
+#content h3 {
+  font-family: "Slimlines", sans-serif;
+}
+
+#content .ingredients {
+  margin-top: 10px;
 }
