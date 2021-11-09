@@ -6,7 +6,7 @@ function getTime() {
 
   if (whatDay === 6 || 0) {
     $("#sign").attr("src", "images/neon-closed.jpeg");
-  } else if (hour <= 10 && minute <= 30 || hour >= 15) {
+  } else if (hour <= 10 && minute < 30 || hour >= 15) {
     $("#sign").attr("src", "images/neon-closed.jpeg");
   } else {
     $("#sign").attr("src", "images/open-neon.jpeg");
