@@ -122,6 +122,10 @@
   background-color: black;
 }
 
+.sign {
+  height: 100px;
+}
+
 #about {
   padding-top: 5%;
   color: white;
