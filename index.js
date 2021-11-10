@@ -36,7 +36,7 @@ getTime();
 openClose();
 
 function signFlicker() {
-  $("#sign").animate({opacity: 1}, 200).animate({opacity: 0.3}, 400).animate({opacity: 1}, 200).animate({opacity: 0.4}, 400).animate({opacity: 0.2}, 100).animate({opacity: 1}, 1000);
+  $("#sign").animate({opacity: 1}, 200).animate({opacity: 0.3}, 400).animate({opacity: 1}, 200).animate({opacity: 0.4}, 400).animate({opacity: 0.2}, 100).animate({opacity: 1}, 1500);
 }
 
 signFlicker();
