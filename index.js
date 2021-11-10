@@ -18,3 +18,9 @@ function getTime() {
 }
 
 getTime();
+
+function signFlicker() {
+  $("#sign").animate({opacity: 0.2}, 400).animate({opacity: 1}, 200).animate({opacity: 0.3}, 400).animate({opacity: 1}, 200).animate({opacity: 0.4}, 400).animate({opacity: 1}, 200).animate({opacity: 0.5}, 400).animate({opacity: 1}, 200).animate({opacity: 0.6}, 400).animate({opacity: 1}, 200).animate({opacity: 0.7}, 400).animate({opacity: 1}, 200);
+}
+
+signFlicker();
