@@ -26,7 +26,7 @@
   line-height: auto;
 }
 
-#banner h2, h3 {
+#banner h2, #banner h3 {
   color: #DCA424;
   font-size: 3rem;
 }
@@ -48,6 +48,10 @@
 
 #banner .sub {
   padding-top: 12%;
+}
+
+#banner .number {
+  color: red;
 }
 
 .white {
@@ -166,6 +170,7 @@
 }
 
 #testimonials {
+  color: #FEF9EF;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   background-color: red;
