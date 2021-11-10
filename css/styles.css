@@ -46,7 +46,6 @@
 }
 
 #content {
-  background-image: url("images/banner.png");
   padding-left: 0;
   padding-right: 0;
 }
@@ -60,11 +59,9 @@
   margin-left: 0;
   margin-right: 0;
   height: 30%;
-  background-image: url("images/banner.png");
 }
 
 #content .col {
-  background-image: url("images/banner.png");
 }
 
 #content .head {
@@ -89,6 +86,7 @@
 
 #content ul {
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
   list-style-type: none;
   text-align: left;
   padding-left: 0;
@@ -96,6 +94,7 @@
 
 #content td {
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
   list-style-type: none;
   text-align: left;
   padding-left: 0;
