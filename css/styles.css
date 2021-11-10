@@ -15,6 +15,10 @@
   top: 10%;
 }
 
+#banner #banner-carousel .number {
+  padding-top: 10%;
+}
+
 #banner h1 {
   color: #DCA424;
   font-size: 6.5rem;
@@ -22,7 +26,7 @@
   line-height: auto;
 }
 
-#banner h2 {
+#banner h2, h3 {
   color: #DCA424;
   font-size: 3rem;
 }
