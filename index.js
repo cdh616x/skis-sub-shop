@@ -4,12 +4,10 @@ function getTime() {
   var hour = day.getHours();
   var minute = day.getMinutes();
 
-  if (whatDay === 6 || 0) {//---------closed sign on Saturday and Sunday
+  if ((whatDay === 6 || 0)) {//---------closed sign on Saturday and Sunday
     $("#sign").attr("src", "images/neon-closed.jpeg");
-  } else if (hour <= 10 || hour >= 15) {//----------closed sign between the hours of 3pm and 10am
-    if (hour === 10 && minute < 30) {
-      $("#sign").attr("src", "images/neon-closed.jpeg");
-    }
+  } else if ((hour <= 10 || (hour === 10 && minute > 30) || hour >= 15)) {//----------closed sign between the hours of 3pm and 10am
+    $("#sign").attr("src", "images/neon-closed.jpeg");
   } else {
     $("#sign").attr("src", "images/neon-open.jpeg");
   }
