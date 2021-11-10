@@ -21,12 +21,10 @@ function openClose() {
   var hour = day.getHours();
   var minute = day.getMinutes();
 
-  if (whatDay === 6 || 0) {//---------closed sign on Saturday and Sunday
+  if ((whatDay === 6 || 0)) {//---------closed sign on Saturday and Sunday
     $(".open-close").text("Sorry, we're closed!");
-  } else if (hour <= 10 || hour >= 15) {//----------closed sign between the hours of 3pm and 10am
-    if (hour === 10 && minute < 30) {
-      $(".open-close").text("Sorry, we're closed!");
-    }
+  } else if ((hour <= 10 || (hour === 10 && minute > 30) || hour >= 15)) {//----------closed sign between the hours of 3pm and 10am
+    $(".open-close").text("Sorry, we're closed!");
   } else {
     $(".open-close").text("We're open; Call now to order!");
   }
